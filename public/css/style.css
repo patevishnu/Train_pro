@@ -1,0 +1,19 @@
+.item
+{
+  background-color:inherit;
+  display:inline-flex;
+  flex-direction:column;
+  flex-basis: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  text-align: justify;
+  font-weight: lighter;
+}
+body
+{
+  background-image: url("https://media.gettyimages.com/id/600190558/photo/passenger-trains.jpg?s=1024x1024&w=gi&k=20&c=Kc9R_8s60n34M1g6L_4NMYh5UOIPAV816Vll8YBDAZQ=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
