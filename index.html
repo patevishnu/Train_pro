@@ -11,7 +11,7 @@
     {
 
 
-       color:blue;
+      color:blue;
       background-image: url("https://i.pinimg.com/564x/6a/72/4b/6a724b9501764fd83a4abcd37b58144d.jpg");
       background-repeat: no-repeat;
 
@@ -37,6 +37,17 @@
   }
 
     </style>
+
+   <script type="text/javascript">
+
+   setInterval(function()
+   {
+     let date=new Date();
+     document.getElementById("time").innerHTML=date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+   },1000)
+
+   </script>
+
   </head>
   <body>
 
@@ -63,7 +74,7 @@
         </a>
         <span class="text-muted">© 2023 Pate</span>
       </div>
-
+      <h3 id="time">hi</h3>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
         <li class="ms-3"><a class="text-muted" href="https://github.com/patevishnu"><svg class="bi" width="24" height="24"><use xlink:href=""></use></svg><i class="fa-brands fa-github fa-bounce fa-lg" style="color: #2228e2;"></i></a></li>
       </ul>
