@@ -25,7 +25,7 @@ app.post("/",function(request,response)
 		 method: 'POST',
 		 hostname: 'trains.p.rapidapi.com',
 		 port: null,
-		 path: '/',
+		 path: '/v1/railways/trains/india',
 		 headers: {
 			 'content-type': 'application/json',
 			 'X-RapidAPI-Key': '927018fe9emshd570a2586337e85p17e1b9jsn3274d2fb021c',
